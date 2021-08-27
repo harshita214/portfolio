@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+
+body{
+    font-family:'Hina Mincho';
+    scroll-behavior: smooth;
+}
+
+.container{
+    color:blue;
+    background-color: paleturquoise;
+    height: 5rem;
+    font: 2rem italic;
+    font-size: 1rem;
+    padding: 20px green;
+    border: 4px yellow;
+    margin: 100px black;
+    cursor: pointer;
+}
+
+.non_bullet li{
+    list-style:none;
+    display: inline;
+    text-align: center;
+    margin-left: auto;
+    display: block;
+}
+
+.aa{
+    display: inline;
+    padding-inline-end: 2rem;
+}
+
+.picallign{
+    text-align: center;
+    
+}
+
+.account{
+    background: url('https://i.pinimg.com/736x/10/b9/1d/10b91d34cf48ea71910e08c971e33ace.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
