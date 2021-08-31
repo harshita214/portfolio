@@ -1,28 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@media (max-width: 991px){
+    h2{
+        font-size: 1rem;
+    }
+}
 
 body{
-    font-family:'Roboto';
-    scroll-behavior: smooth;
-}
- 
-
-.container{
-    color:rgb(102, 34, 62);
-    background-color: rgb(164, 236, 236);
-    height: 5rem;
-    width: 75rem;
-    font-size: 1.5rem;
-    padding: 30px;
-    border: 4px solid rgb(107, 74, 102);
-    margin: 10px ;
+    height: 100vh;
+    background: url('https://i.pinimg.com/736x/10/b9/1d/10b91d34cf48ea71910e08c971e33ace.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
     
 }
 
-.navbar{
-    display: inline;
+body::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+    
+ a{
+    text-decoration: none;
+    color: white;
+ }
+
+.container{
+    color:rgb(102, 34, 62);
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 1000px;
+    width: 1000px;
+    font-size: 1.5rem;
+    padding: 50px;
+    text-align: center;
+    margin: 10px ;
+    flex-direction: ;
 }
 
-.non_bullet li{
+ /*.navbar{
+    display: inline;
+ }*/
+
+ .non_bullet li{
     list-style:none;
     display: inline;
     text-align: center;
@@ -32,9 +54,8 @@ body{
 
 
 .picallign{
-    text-align: left;
-    margin-left: auto;
     
+    margin-left: auto;  
     padding: 3rem;
 }
 .link{
@@ -44,23 +65,49 @@ body{
     margin-left: auto;
 }
 
-.account{
-    background: url('https://i.pinimg.com/736x/10/b9/1d/10b91d34cf48ea71910e08c971e33ace.jpg');
-    background-repeat: no-repeat;
-    background-size:cover;
-    padding: 50px;
-}
-
 .nspace{
-    padding: 27px;
-    border: 2px solid  rgb(76, 78, 77);
+    
+    
     display: flex;
     margin-left: auto;
     list-style: none;
-    
+    color: white;
 }
 
 .space{
     text-align: center;
     padding: 0 1rem;
 }
+
+header{
+    background: rgb(47, 111, 131);
+    border-radius: 1rem;
+    
+}
+
+nav {
+	float: right;
+}
+
+.navbar {
+	width: 5px;
+	margin: 0 auto;
+	z-index: 5; 
+}
+
+.nav-logo {  	
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-size: 1.7rem;
+	color: white;
+	font-family:  sans-serif;
+	float:left;
+}
+
+.sticky {		/*To make navbar sticky*/
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+    
