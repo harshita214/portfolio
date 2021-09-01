@@ -24,8 +24,20 @@ body::-webkit-scrollbar { /* WebKit */
     
  a{
     text-decoration: none;
-    color: white;
+    color: rgb(10, 9, 9);
  }
+
+ .heading {
+	color: rgb(3, 3, 3);
+	font-family: 'Roboto',sans-serif;
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.halign{
+    text-align: center;
+}
 
 .container{
     color:rgb(102, 34, 62);
@@ -37,7 +49,7 @@ body::-webkit-scrollbar { /* WebKit */
     padding: 50px;
     text-align: center;
     margin: 10px ;
-    flex-direction: ;
+    
 }
 
  /*.navbar{
@@ -68,7 +80,7 @@ body::-webkit-scrollbar { /* WebKit */
 .nspace{
     
     
-    display: flex;
+    
     margin-left: auto;
     list-style: none;
     color: white;
@@ -80,9 +92,7 @@ body::-webkit-scrollbar { /* WebKit */
 }
 
 header{
-    background: rgb(47, 111, 131);
-    border-radius: 1rem;
-    
+    background: rgba(229, 207, 225, 0.274);   
 }
 
 nav {
@@ -90,17 +100,18 @@ nav {
 }
 
 .navbar {
-	width: 5px;
+	width: 50%;
 	margin: 0 auto;
 	z-index: 5; 
+    
 }
 
-.nav-logo {  	
-	margin-top: 5px;
+.logo {  	
+	margin-top: 10px;
 	margin-bottom: 10px;
-	font-size: 1.7rem;
-	color: white;
-	font-family:  sans-serif;
+	font-size: 1.5rem;
+	color: rgb(12, 11, 11);
+	padding-left: 3rem;
 	float:left;
 }
 
@@ -109,5 +120,33 @@ nav {
   top: 0;
   width: 100%;
 }
+
+nav{
+    float: inline-end;
+}
+
+.box_space{
+	display:flex;
+    padding-top: 6rem;
+	padding-bottom: 6.1rem;
+}
+
+.box_container {
+	display: grid;
+    justify-content: center;
+	height: 340px;
+	margin-right: 50px;
+	margin-left: 50px;
+	border: 2px;
+	width: 80%;
+	box-shadow: 0 5px 10px 0 rgb(0 0 0 / 20%), 
+	-10px 10px 20px 0 rgb(0 0 0 / 20%),
+	10px 10px 20px 0 rgb(0 0 0 / 10%);
+}
+
+.box_modify{
+    text-align: center;
+}
+
 
     
