@@ -5,23 +5,48 @@
         <meta name="viewport" content="width-device-width,initial-scale=1.0">
         <title>Harshita Sharma's Portfolio!!</title>
         <link href="./style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head> 
     <body>
-    
+        <div class="box_space" >
+        <div class="box_container">
         <header id="navbar" class="sticky">
             <div class="nspace" class="navbar">
             <h1 class="logo">Harshita Sharma</h1>
             <nav>
             <ul> 
                 <a href="./index.html" class="link">Home</a>
-                <a href="./about.html" class="link">About me</a>
-                <a href="./skills.html" class="link">My Skills</a>
-                <a href="./socialmedia.html" class="link">Social media accounts</a>
+                <a href="#about" class="link">About me</a>
+                <a href="#skills" class="link">My Skills</a>
+                <a href="#socialmedia" class="link">Social media accounts</a>
             </ul></nav>
         </div> 
         </header>
-        <div class="box_space" >
-        <div class="box_container">
+        <div class="row-outer">
+            <div class="container1">
+                <div class="animated-heading">
+                    <H1>Hy I am a <span id="words">Ui / Ux Design</span></H1>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+          (function () {
+              var words = [
+                  "Student",
+                  "Photographer",
+                  "Web-Developer",
+                  "Kathak-Dancer"
+              ],
+              i=0;
+              setInterval(function(){
+                  $('#words').fadeOut(function(){
+                      $(this).html(words[(i= (i+1)% words.length)]).fadeIn();
+                  });
+              }, 2000);
+          })();
+        </script>
+        
         <h2  class="heading"> I am Harshita Sharma. :) </h2>
         <h2 class="halign">
         
@@ -33,6 +58,54 @@
         
         </div>
         </div>
-          
+
+        <div class="box_space" id="about" >
+            <div class="box_container">
+            <h2  class="heading"> About me </h2>
+            <p class="container" >Hey, I am in 2nd year of graduation.<br>My college is Birla Institute of Technolgy, Mesra where I am currently pursuing in Computer science Branch.Before this , I completed my senior secondary and higher secondary from Subodh Public School.</p>
+            </div>
+            </div>
+        <div class="box_space"  id="skills">
+        <div class="box_container">
+        <h2  class="heading"> My Hobbies and technical skills </h2>
+        <ul class="non_bullet">
+            <b><li>C language</li>
+            <li>Python</li></b>
+        
+            <li>Dancing(Kathak)</li>
+            <li>Reading</li>
+            <li>Photography</li>
+        </ul>
+        <div class="halign">
+        My first Web Devlopment Project 
+        <br>
+        Simple Interst and Compound Interst Calculator
+        <br>
+        <u><a href="https://simpleandcompoundinterstcalculator.netlify.app/" target="_blank">Calculator</a></div>
+       </u>
+        
+        </div>
+        </div>
+        
+        <div class="box_space" id="socialmedia" >
+
+            <div class="box_container">
+            
+                <h2 class="heading">Connect with me!</h4>
+                <div class="box_modify">
+                <h3>Linkeden Account!</h3>
+                <a href= "https://www.linkedin.com/in/harshita-sharma-bb7992208/" target="_blank">Linkden</a>
+                <h3> Github Account!</h3>
+                <a href= "https://github.com/harshita214" target= "_blank">Github</a>
+                
+                </div>
+    
+            </div>
+            </div>
+         
+            <footer  id="nspace">
+        <strong>Mail:</strong>
+        jaipurharshita1@gmailcom
+        </footer>
     </body>
 </html>

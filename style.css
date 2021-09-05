@@ -8,7 +8,7 @@
 
 body{
     height: 100vh;
-    background: url('https://i.pinimg.com/736x/10/b9/1d/10b91d34cf48ea71910e08c971e33ace.jpg');
+    background: url('https://images.pexels.com/photos/4284282/pexels-photo-4284282.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
     background-repeat: no-repeat;
     background-size:cover;
     overflow-y: scroll;
@@ -148,5 +148,24 @@ nav{
     text-align: center;
 }
 
+.container1 {
+    width: 75%;
+    max-width: 460px;
+    margin: auto;
+}
 
+.animated-heading {
+    display: flex;
+    align-items: center;
+    
+}
+
+h1 {
+    color: black;
+    font-weight: 500;
+}
+
+span#words {
+    font-weight: bolder;
+}
     
