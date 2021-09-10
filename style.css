@@ -8,7 +8,9 @@
 
 body{
     height: 100vh;
-    background: url('https://images.pexels.com/photos/4284282/pexels-photo-4284282.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background: url(./Images/bg.jpg) no-repeat center /cover;
+    
+    
     background-repeat: no-repeat;
     background-size:cover;
     overflow-y: scroll;
